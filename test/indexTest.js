@@ -19,7 +19,7 @@ describe( "submitData()", () => {
     window.onerror = undefined;
 
   } );
-
+  
   it( "makes a POST request to /users with a name and email", async () => {
     let reqBody
     let headers
